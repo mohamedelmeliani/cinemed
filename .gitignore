@@ -1,0 +1,9 @@
+# ignore ALL .log files
+/logs
+/test.js
+/node_modules
+/beamup.json
+/package-lock.json
+/*.rest
+/old
+.env

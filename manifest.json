@@ -1,0 +1,26 @@
+{
+    "id": "community.cinemed",
+    "version": "0.3.1",
+    "name": "Cinemed by Mohamed",
+    "description": "still under test",
+    "logo": "https://www.freeiconspng.com/thumbs/movie-icon/movie-icon-24.png",
+    "background": "https://github.com/Stremio/stremio-art/raw/main/originals/reiphantomhive1.png",
+    "contactEmail": "stremio.elm@gmail.com",
+    "catalogs": [],
+    "resources": [
+        {
+            "name": "stream",
+            "types": [
+                "movie",
+                "series"
+            ],
+            "idPrefixes": [
+                "tt"
+            ]
+        }
+    ],
+    "types": [
+        "movie",
+        "series"
+    ]
+}

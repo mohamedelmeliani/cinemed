@@ -1,0 +1,36 @@
+{
+	"name": "stremio-addon-cinemed",
+	"version": "0.3.1",
+	"description": "still under test",
+	"scripts": {
+		"start": "node subprocess.js",
+		"dev": "nodemon server.js"
+	},
+	"engines": {
+		"node": "17.x",
+		"npm": "8.x"
+	},
+	"dependencies": {
+		"@consumet/extensions": "^1.4.1",
+		"axios": "^0.27.2",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"fast-html-parser": "^1.0.1",
+		"free-proxy": "^0.2.1",
+		"iso-639-3": "^3.0.1",
+		"node-cache": "^5.1.2",
+		"protobufjs": "^7.1.2",
+		"random-useragent": "^0.5.0",
+		"recaptchav3bypass": "^1.0.1",
+		"serve-index": "^1.9.1",
+		"slugify": "^1.6.5",
+		"stremio-addon-sdk": "^1.6.10",
+		"sub2vtt": "github:dexter21767/sub2vtt",
+		"swagger-stats": "^0.99.5",
+		"underscore": "^1.13.6",
+		"winston-daily-rotate-file": "^4.7.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
